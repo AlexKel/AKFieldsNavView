@@ -1,9 +1,22 @@
-AKFieldsNavView
-===============
+# AKFieldsNavView
 
-UIView subclass for easy next/previous fields navigation
+UIView subclass for easy next/previous UITextField & UITextView navigation.
+
+# Usage
+
+To use it in your projects follow these steps:
+* Add the AKFieldsNavView folder to your project
+* Open view controller's (the one that's needed fields navigation) xib file and change root view class to **AKFieldsNavView**
+(https://raw.github.com/stefanoa/SASlideMenu/master/Screenshots/screenshot_class_change.png)
+
+* Link root view to a desired UITextField or UITextView
+(https://raw.github.com/stefanoa/SASlideMenu/master/Screenshots/screenshot_link_root_to_field.png)
+
+* Select **textFields** IBOutletCollection option
+(https://raw.github.com/stefanoa/SASlideMenu/master/Screenshots/screenshot_choose_textFields.png)
 
 # License
+
 **AKFieldsNavView** is available under the MIT license:
 
 *Copyright (c) 2012 Aleksandr Kelbas*
