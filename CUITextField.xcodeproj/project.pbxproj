@@ -267,11 +267,15 @@
 		0F24E6881637F76C0092FC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Kevin Jones (4KU73JM4EH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kevin Jones (4KU73JM4EH)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CUITextField/CUITextField-Prefix.pch";
 				INFOPLIST_FILE = "CUITextField/CUITextField-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "C914B5A8-CD5B-4E84-AC7F-EE07607D472D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "05029678-1E12-47AE-A236-D9DF01D2156D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
