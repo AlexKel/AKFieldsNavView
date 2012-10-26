@@ -15,6 +15,11 @@ To use it in your projects follow these steps:
 * Select **textFields** IBOutletCollection option
 ![Select textFields](https://raw.github.com/AlexKel/AKFieldsNavView/master/Screenshots/screenshot_choose_textFields.png)
 
+# Screenshots
+![Portrait](https://raw.github.com/AlexKel/AKFieldsNavView/master/Screenshots/portrait.png)
+
+![Landscape](https://raw.github.com/AlexKel/AKFieldsNavView/master/Screenshots/landscape.png)
+
 # License
 
 **AKFieldsNavView** is available under the MIT license:
