@@ -13,3 +13,7 @@ build/*
 xcuserdata
 profile
 *.moved-aside
+
+CUITextField.xcodeproj/project.xcworkspace/xcuserdata/alex.kelbas.xcuserdatad/UserInterfaceState.xcuserstate
+
+*.xcuserstate
