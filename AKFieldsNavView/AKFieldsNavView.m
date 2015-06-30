@@ -52,6 +52,14 @@
         {
             return NSOrderedAscending;
         }
+        else if (aRect.origin.x > bRect.origin.x)
+        {
+            return NSOrderedDescending;
+        }
+        else if (aRect.origin.x < bRect.origin.x)
+        {
+            return NSOrderedAscending;
+        }
         else return NSOrderedSame;
         
     }];
